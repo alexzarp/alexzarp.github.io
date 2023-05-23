@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    font-size: x-large;
+    --cor-primaria: #FF7F50;
+    --cor-primaria-escurecida: #FF6347;
+    --cor-secundaria: #6A5ACD;
+    --cor-destaque: #FFD700;
+    --cor-fundo: #F8F8F8;
+    --cor-texto: #333333;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+}
+
+.body-padding {
+    padding: 1rem;
+}
+
+main > div {
+    margin-bottom: 1rem;
+}
+
+main p {
+    text-align: justify;
+}
+header {
+    /* position: fixed; */
+    z-index: 9999;
+    background-color: var(--cor-primaria);    
+    width: 100%;
+}
+
+footer {
+    background-color: var(--cor-secundaria);
+    display: flex;
+  justify-content: center;
+}
+
+footer > a {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.profile-foto {
+    border-radius: 100%;
+    width: 30%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+button {
+    font-size: 1rem;
+    border-radius: 100vw;
+    border: none;
+    padding: .5rem;
+}
+
+#button-header {    
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    background-color: var(--cor-primaria-escurecida);
+}
+
+h1 {
+    padding-bottom: 1rem;
+}
+
+ul {
+    margin-left: 1.5rem;
+}
+
+li {
+    padding-bottom: .5rem;
+}
+
+.icons > div > img {
+    width: 2rem;
+    height: 2rem;
+}
+
+.icons > div > span {
+    padding-left: .5rem;
+    position: absolute;
+    padding-top: .5rem;
+}
+
+/* .icons > div {
+    display: flex;
+    flex-direction: row;
+} */
