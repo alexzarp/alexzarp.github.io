@@ -103,3 +103,10 @@ li {
     display: flex;
     flex-direction: row;
 } */
+
+/* i need a view port adaptation for scale in PC */
+@media (min-width: 720px) {
+    .profile-foto {
+        width: 10%;
+    }
+}
