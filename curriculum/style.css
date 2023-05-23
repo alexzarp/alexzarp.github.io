@@ -66,6 +66,7 @@ button {
     border-radius: 100vw;
     border: none;
     padding: .5rem;
+    color: var(--cor-texto);
 }
 
 #button-header {    
