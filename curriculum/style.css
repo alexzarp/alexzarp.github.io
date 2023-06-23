@@ -33,6 +33,7 @@ main > div {
 main p {
     text-align: justify;
 }
+
 header {
     /* position: fixed; */
     z-index: 9999;
@@ -61,7 +62,7 @@ footer > a {
     grid-template-columns: 1fr 1fr;
 }
 
-button {
+button, #special-a {
     font-size: 1rem;
     border-radius: 100vw;
     border: none;
@@ -69,7 +70,7 @@ button {
     color: var(--cor-texto);
 }
 
-#button-header {    
+#button-header, #special-a {    
     margin-top: auto;
     margin-bottom: auto;
     margin-left: auto;
@@ -121,6 +122,11 @@ li {
     animation: line-connect 10s linear infinite !important;
 }
 
+#special-a {
+    display: none;
+    text-decoration: none;
+}
+
 @keyframes line-connect {
     0% {
         background-position: 100% 50%;
@@ -151,5 +157,17 @@ li {
     }
     .icons > div > span {
         padding: 0;
+    }
+}
+
+@media print {
+    a::after {
+        attr(href);
+    }
+    #special-a {
+        display: block;
+    }
+    #button-header {
+        display: none;
     }
 }
