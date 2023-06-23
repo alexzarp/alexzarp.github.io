@@ -68,6 +68,7 @@ button, #special-a {
     border: none;
     padding: .5rem;
     color: var(--cor-texto);
+    cursor: pointer;
 }
 
 #button-header, #special-a {    
