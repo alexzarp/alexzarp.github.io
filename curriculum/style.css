@@ -144,7 +144,10 @@ li {
 
 @media (max-width: 600px) {
     .icons > div {
-        padding-bottom: 2rem;
+        padding-bottom: 2.7rem;
+    }
+    .icons div:last-child {
+        padding-bottom: .5rem !important;
     }
     .icons > div > span {
         padding: 0;
