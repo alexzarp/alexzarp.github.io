@@ -115,7 +115,7 @@ li {
 #print {
     position: fixed;
     bottom: .5rem;
-    right: .5rem;
+    right: 1rem;
     z-index: 9999;
 }
 #print button {
