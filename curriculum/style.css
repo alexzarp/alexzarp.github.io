@@ -111,6 +111,15 @@ li {
     flex-direction: row;
 } */
 
+#print {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    z-index: 9999;
+}
+#print button {
+    background-color: var(--cor-destaque);
+}
 
 .line-animation {
     background: linear-gradient(to right, var(--cor-primaria), var(--cor-secundaria), var(--cor-primaria));
@@ -168,6 +177,9 @@ li {
         display: block;
     }
     #button-header {
+        display: none;
+    }
+    #print {
         display: none;
     }
 }

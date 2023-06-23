@@ -8,6 +8,3 @@ function age(id) {
     }
     document.getElementById(id).textContent = age;
 }
-  
-  
-  
