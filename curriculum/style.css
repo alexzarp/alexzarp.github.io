@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-* { 
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -26,7 +26,7 @@ body {
     padding: 1rem;
 }
 
-main > div {
+main>div {
     margin-bottom: 1rem;
 }
 
@@ -37,17 +37,17 @@ main p {
 header {
     /* position: fixed; */
     z-index: 9999;
-    background-color: var(--cor-primaria);    
+    background-color: var(--cor-primaria);
     width: 100%;
 }
 
 footer {
     background-color: var(--cor-secundaria);
     display: flex;
-  justify-content: center;
+    justify-content: center;
 }
 
-footer > a {
+footer>a {
     margin-right: auto;
     margin-left: auto;
 }
@@ -62,7 +62,8 @@ footer > a {
     grid-template-columns: 1fr 1fr;
 }
 
-button, #special-a {
+button,
+#special-a {
     font-size: 1rem;
     border-radius: 100vw;
     border: none;
@@ -71,7 +72,8 @@ button, #special-a {
     cursor: pointer;
 }
 
-#button-header, #special-a {    
+#button-header,
+#special-a {
     margin-top: auto;
     margin-bottom: auto;
     margin-left: auto;
@@ -90,12 +92,13 @@ li {
     padding-bottom: .5rem;
 }
 
-.icons > div > img {
+.icons>div>img {
     width: 2rem;
     height: 2rem;
 }
 
-.icons > div > span, image {
+.icons>div>span,
+image {
     padding-left: .5rem;
     position: absolute;
     padding-top: .5rem;
@@ -117,7 +120,9 @@ li {
     bottom: .5rem;
     right: 1rem;
     z-index: 9999;
+    transition: bottom 0.3s ease;
 }
+
 #print button {
     background-color: var(--cor-destaque);
 }
@@ -141,9 +146,11 @@ li {
     0% {
         background-position: 100% 50%;
     }
+
     50% {
         background-position: 0% 50%;
     }
+
     100% {
         background-position: -100% 50%;
     }
@@ -153,20 +160,27 @@ li {
     .profile-foto {
         width: 10%;
     }
+
     .special {
         display: none;
     }
 }
 
 @media (max-width: 600px) {
-    .icons > div {
+    .icons>div {
         padding-bottom: 2.7rem;
     }
+
     .icons div:last-child {
         padding-bottom: .5rem !important;
     }
-    .icons > div > span {
+
+    .icons>div>span {
         padding: 0;
+    }
+
+    .profile-foto {
+        width: 40%;
     }
 }
 
@@ -174,13 +188,20 @@ li {
     a::after {
         attr(href);
     }
+
     #special-a {
         display: block;
     }
+
     #button-header {
         display: none;
     }
+
     #print {
         display: none;
+    }
+
+    .profile-foto {
+        width: 25%;
     }
 }
