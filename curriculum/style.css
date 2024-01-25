@@ -110,6 +110,10 @@ image {
     padding-bottom: 3px;
 }
 
+#mqtt {
+    width: 8rem;
+}
+
 /* .icons > div {
     display: flex;
     flex-direction: row;
