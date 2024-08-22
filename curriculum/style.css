@@ -18,8 +18,11 @@
 }
 
 body {
-    background-color: var(--cor-fundo);
     color: var(--cor-texto);
+}
+
+.body-color {
+    background-color: var(--cor-fundo);
 }
 
 .body-padding {
