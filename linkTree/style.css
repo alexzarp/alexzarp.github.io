@@ -1,60 +1,60 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 * {
-    font-family: 'Roboto', sans-serif;
-    padding: 0;
-    border: 0;
-    margin: 0;
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  border: 0;
+  margin: 0;
 }
 
 h1 {
-    margin: 0;
-    display: flex;
-    align-self: center;
+  margin: 0;
+  display: flex;
+  align-self: center;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 body {
-    background-color: rgb(49, 49, 49);
-    margin: 2% 15% 2% 15%;
+  background-color: rgb(49, 49, 49);
+  margin: 2% 15% 2% 15%;
 }
 
 #foto {
-    border-radius: 100%;
-    width: 20%;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    transition: 0.3s ease;
+  border-radius: 100%;
+  width: 20%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  transition: 0.3s ease;
 }
 #foto:hover {
-    /* transition: 0.5s ease; */
-    transform: scale(1.1);
-    border-color: rgb(107, 255, 39);
+  /* transition: 0.5s ease; */
+  transform: scale(1.1);
+  border-color: rgb(107, 255, 39);
 }
 
 .blocos {
-    background-color: rgb(77, 77, 77);
-    border-radius: 20vh;
-    padding: 2% 5% 2% 5%;
-    margin: 0 20% 0 20%;
-    display: flex;
-    align-self: center;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    transition: 0.3s ease;
+  background-color: rgb(77, 77, 77);
+  border-radius: 20vh;
+  padding: 2% 5% 2% 5%;
+  margin: 0 20% 0 20%;
+  display: flex;
+  align-self: center;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  transition: 0.3s ease;
 }
 
 .blocos:hover {
-    background-color: white;
-    transform: scale(1.05);
+  background-color: white;
+  transform: scale(1.05);
 }
 
 .blocos:active {
-    background-color: rgb(238, 255, 0);
-    transform: scale(0.8);
+  background-color: rgb(238, 255, 0);
+  transform: scale(0.8);
 }
 
 /* ul {
@@ -68,45 +68,48 @@ body {
     visibility: hidden;
 } */
 
-.blocos img{
-    width: 3em;
+.blocos img {
+  width: 3em;
 }
 
 #twitter {
-    color: #26A6D1;
+  color: #26a6d1;
 }
 #linkedin {
-    color: #0077B5;
+  color: #0077b5;
 }
 #telegram {
-    color: #37AEE2;
+  color: #37aee2;
 }
 #github {
-    color: black;
+  color: black;
 }
 /* #mail {
     color: red;
 } */
 #blue {
-    color: #4285f4;
+  color: #4285f4;
 }
 #dark_red {
-    color: #c5221f;
+  color: #c5221f;
 }
 #red {
-    color: #ea4335;
+  color: #ea4335;
 }
 #green {
-    color: #34a853;
+  color: #34a853;
 }
 #yellow {
-    color: #fbbc04;
+  color: #fbbc04;
 }
 #spotify {
-    color: #10BC4C;
+  color: #10bc4c;
 }
 #curriculum {
-    color: #FF8C00;
+  color: #ff8c00;
+}
+#certificate {
+  color: #00693e;
 }
 /* display: flex;
     align-self: center;
@@ -114,10 +117,10 @@ body {
     margin-right: auto; */
 
 @media (max-width: 700px) {
-    body {
-        margin: 4% 2% 4% 2%;
-    }
-    .blocos {
-        margin: 0 6% 0 6%;
-    }
+  body {
+    margin: 4% 2% 4% 2%;
+  }
+  .blocos {
+    margin: 0 6% 0 6%;
+  }
 }
