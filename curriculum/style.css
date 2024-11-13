@@ -9,9 +9,9 @@
 
 :root {
     font-size: x-large;
-    --cor-primaria: #FF7F50;
-    --cor-primaria-escurecida: #FF6347;
-    --cor-secundaria: #6A5ACD;
+    --cor-primaria: #4169E1;
+    --cor-primaria-escurecida: #0338d6;
+    --cor-secundaria: #2b7105;
     --cor-destaque: #FFD700;
     --cor-fundo: #F8F8F8;
     --cor-texto: #333333;
@@ -77,6 +77,8 @@ button,
 
 #button-header,
 #special-a {
+    font-weight: bold;
+    color: white;
     margin-top: auto;
     margin-bottom: auto;
     margin-left: auto;
