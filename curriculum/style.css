@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+
 }
 
 :root {
@@ -116,7 +117,8 @@ image {
 }
 
 #mqtt {
-    width: 8rem;
+    width: 6rem;
+    margin-inline: .01rem;
 }
 
 /* .icons > div {
